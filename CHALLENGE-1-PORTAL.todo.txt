@@ -1,0 +1,92 @@
+PORTAL ESCOLAR:
+
+VAMOS COMEÇAR A DESENVOLVER UM PORTAL ESCOLAR
+NÃO SE PREOCUPE QUE VAMOS FAZER TUDO, MAS EM PEQUENOS PASSOS.
+
+OBJETIVO AO FINAL DESTE DESAFIO:
+	É ESPERADO QUE OS MEMBROS OBTENHA DOMÍNIO DOS MÉTODOS DE ARRAY [PUSH, FIND, FILTER
+	SPLICE, LENGTH], IF ELSE, OBJETOS E FUNÇÕES 
+
+	ENTREGA: É ESPERADO QUE SEJA ENTREGUE DOIS ARQUIVOS JS, ONDE CADA UM TENHA UMA 
+	CONSTANTE DO TIPO ARRAY ACOMPANHADO DAS FUNÇÕES DO MÉTODO CRUD APLICADA À CONSTANTE.
+
+	PONTUAÇÃO NO RANKING:
+	SUBMETER O DESAFIO EM ATÉ 4 DIAS: 500 PONTOS;
+	SUBMETER O DESAFIO EM ATÉ 5 DIAS: 400 PONTOS;
+	SUBMETER O DESAFIO EM ATÉ 6 DIAS: 300 PONTOS;
+	SUBMETER O DESAFIO EM ATÉ 7 DIAS: 200 PONTOS;
+
+VAMOS COMEÇAR MANIPULANDO OS DADOS PARA CADASTRO DE USUÁRIOS (ADMIN E COMUNS) E
+CADASTRO DE ESTUDANTES, OK?
+
+☐ Crie um arquivo chamado "users.js";
+☐ Neste crie uma constante chamada "users";
+☐ Essa constante deve armazenar uma lista de usuários;
+☐ Cada usuário deve ter os seguintes atributos:
+- id, (number)
+- email, (string)
+- senha, (string)
+- admin (boolean)
+Todos são obrigatórios;
+
+☐ Crie um arquivo chamado "students.js";
+☐ Neste crie uma constante chamada "students";
+☐ Essa constante deve armazenar uma lista de alunos;
+☐ Cada aluno deve ter os seguintes atributos
+- id, (number)
+- nome, (string)
+- gênero, (string)
+- data de nascimento, (date)
+- turma, (string)
+- curso, (string)
+Dos atributos apenas curso é opcional;
+
+No arquivo users.js crie as seguintes funções
+☐ Salvar um novo usuário;
+☐ Listar usuários em formato de tabela;
+☐ Buscar um usuário por id e/ou email;
+☐ Login onde verifica se email e senha informadas estão corretas com algum usuário da lista,
+deve retornar uma mensagem de "usuario conectado" ou "usuário ou senha incorreto";
+☐ Excluir usuário por id;
+
+No arquivo students.js crie as seguintes funções
+☐ Salvar novo aluno;
+☐ Listar alunos em formato de tabela;
+☐ Buscar um aluno por nome e/ou id;
+☐ Editar os dados de um aluno específico;
+☐ Excluir um aluno por id;
+☐ Suba o projeto para o github
+
+Observação:
+Você deve validar os dados obrigatórios antes de salvar;
+O atributo id deve ser incremental (PRIMARY KEY identifica exclusivamente
+cada registro em uma tabela.);
+Todos os atributos salvos devem estar em upercase exemplo: name: "ALESSANDRO";
+O nome das propriedades devem estar em inglês;
+
+As funções devem ter os respectivos nomes:
+	Salvar: create;
+	Listar: index;
+	Excluir: destroy;
+	Buscar por id: findByPk;
+	Buscar por nome: findOne;
+	Editar: update;
+	Login: login;
+
+Caso a dupla decida criar uma função para gerar um id incremental, dê o seguinte nome para a função:
+	Gerar id: generateId;
+
+As duplas tem liberdade para distribuir entre si as tarefas, mas o ideal é que façam juntos
+PRAZO DE ENTREGA: 7 DIAS CORRIDOS
+
+EM CASO DE DÚVIDAS, TEREMOS O PLANTÃO SÁBADO DAS 19H ÀS 21H
+VOCÊ TAMBÉM PODE PEDIR AJUDA NO CANAL #AJUDA NO DISCORD
+TENTE PESQUISAR SUAS DÚVIDAS NO STACKOVERFLOW OU NO GOOGLE
+VOCÊ TAMBÉM PODE ESPECULAR COMO OS COLEGAS ESTÃO RESOLVENDO, PELO GITHUB
+
+REFERÊNCIAS:
+1 - PORTAL ESCOLAR (REQUISITOS): https://github.com/ALESSANDROLMENEZES/Desafio-Portal-Escolar-comunidade-IDEV
+2 - OBJETOS EM JAVASCRIPT: https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico
+3 - FUNÇÕES: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Fun%C3%A7%C3%B5es
+4 - MÉTODOS DE ARRAY: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
+5 - CRUD: https://www.codecademy.com/articles/what-is-crud
